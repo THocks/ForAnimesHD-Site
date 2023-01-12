@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Categoria</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body>
+    <div class="container-Animes">
+      <div class="mainAnimes">
+        <nav>
+          <a class="logo" href="/index.html"
+            ><img
+              class="logoImg"
+              src="../assets/imgs/logo.png"
+              alt="ANIMESFORHDLOGO"
+          /></a>
+          <!--Menu Mobile-->
+          <div class="mobile-menu">
+            <a href="#home"></a>
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul>
+            <li><a href="../index.html">HOME</a><i class="ph-house"></i></li>
+
+            <li>
+              <a href="#NOTICIAS"
+                ><i class="ph-bell-simple-ringing"></i>NOTICIAS</a
+              >
+            </li>
+            <li>
+              <a href="https://discord.com" target="_blank"
+                ><i class="ph-discord-logo"></i>DISCORD</a
+              >
+            </li>
+
+            <li>
+              <a href="#LOGIN"><i class="ph-user"></i>LOGIN</a>
+            </li>
+            <li>
+              <div class="search-box">
+                <input
+                  class="search-text"
+                  id="campoDeBusca"
+                  type="text"
+                  name="search"
+                  onkeydown="detecta(event)"
+                  placeholder="Escreva o que procura" />
+                <div class="list"></div>
+                <a href="#SEARCH" class="icon"
+                  ><i class="ph-magnifying-glass"></i
+                ></a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!--Categorias Father-->
+      <section class="fatherCards">
+        <div class="cardTitle">Ação</div>
+        <div class="cardTitle">Aventura</div>
+        <div class="cardTitle">Drama</div>
+        <div class="cardTitle">Sobrenatural</div>
+        <div class="cardTitle">Shonen</div>
+        <div class="cardTitle">Isekai</div>
+        <div class="cardTitle">Romantico</div>
+        <div class="cardTitle">Artes Marcias</div>
+        <div class="cardTitle">Fantasia</div>
+        <div class="cardTitle">Mecha</div>
+        <div class="cardTitle">Artes Marcias</div>
+        <div class="cardTitle">Artes Marcias</div>
+      </section>
+    </div>
+  </body>
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <script src="script.js"></script>
+  <script src="/scripts/animeGamesBD.js"></script>
+</html>

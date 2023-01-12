@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+   
+
+    <title>For AnimesHD</title>
+  </head>
+  <body>
+    
+    <!--Contain Animes contendo top 5 animes e Nav-->
+    <!-- Chama nos pro projetinho ai -->
+    <div class="container-Animes">
+      <div class="home-animes">
+        <div class="overlay bg"></div>
+        <video
+          class="video"
+          autoplay
+          loop
+          muted
+          src="assets/videos/soloLevelingTrailerAnime.mp4"></video>
+      </div>
+      <div class="mainAnimes">
+        <nav>
+          <a class="logo" href="/index.html"
+            ><img class="logoImg"src="assets/imgs/logo.png" alt="ANIMESFORHDLOGO"
+          /></a>
+          <!--Menu Mobile-->
+          <div class="mobile-menu">
+            <a href="#home"></a>
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul>
+            <li>
+           
+              <a href="indexhtml/categorias.html">CATEGORIAS</a><i class="ph-arrow-down"></i>
+              <ul>
+                <!--SubMenuCategoriaas-->
+                <li>Ação</li>
+                <li>Aventura</li>
+                <li>Drama</li>
+                <li>Sobrenatural</li>
+                <li>Shonen</li>
+                <li>Isekai</li>
+                <li>Romantico</li>
+                <li>Artes Marcias</li>
+                <li>Fantasia</li>
+                <li>Mecha</li>
+                <li>Echi</li>
+                <li>Musical</li>
+                <li>Terror</li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#NOTICIAS"
+                ><i class="ph-bell-simple-ringing"></i>NOTICIAS</a
+              >
+            </li>
+            <li>
+              <a href="#DISCORD"><i class="ph-discord-logo"></i>DISCORD</a>
+            </li>
+
+            <li>
+              <a href="#LOGIN"><i class="ph-user"></i>LOGIN</a>
+            </li>
+            <li>
+              <div class="search-box">
+                <input
+                  class="search-text"
+                  id="searchText"
+                  type="text"
+                  name="search"
+
+                  placeholder="Escreva o que procura" />
+                  <div class="list"></div>
+                <a href="#SEARCH" class="icon"><i class="ph-magnifying-glass"></i></a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <section id="home">
+          <div class="anime-showcase">
+            <div class="tags">
+              <p class="tag">isekai  Aventura  Sobrenatural</p>
+              <p class="tag">Manhwa  Anime</p>
+            </div>
+            <!--Div Estrelas-->
+            <div class="classeExtrelas">
+              <span class="stars">
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-fill"></i>
+              </span>
+              <p>A-1 Pictures</p>
+            </div>
+            <h2>Solo Leveling</h2>
+            <p class="description">
+              Dez anos atrás, depois do “Portal” que conecta o mundo real com um
+              mundo de montros se abriu, algumas pessoas comuns receberam o
+              poder de caçar os monstros do portal. Eles são conhecidos como
+              caçadores. Porém, nem todos os caçadores são fortes.
+            </p>
+            <button>Saiba Mais</button>
+            <div class="imageArt"></div>
+          </div>
+          <div id="cardContainer"></div>
+          <div class="highlights" id="cardsAnimes">
+            <h1>O Mais Esperados 2023</h1>
+            <ul></ul>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!--Fim da div Main Container-->
+    <!--Section Hero-->
+    <div class="epiTituloContainer">
+      <span>Recem Atualizados</span>
+    </div>
+    <section class="hero-section">
+      <div class="card-grid">
+      
+        <a class="card" href="#">
+
+          <div class="card__background" style="background-image: url(assets/imgsAnimes/Benriya-Saitou-san-Isekai-ni-Iku-Episodio-1.png)"></div>
+          <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+          <div class="card__content">
+            <p class="card__category">LEGENDADO</p>
+            <p class="card__heading"><span>Benriya Saitou-san Isekai ni Iku Episodio 01 HD</span></p>
+          </div>
+       
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(assets/imgsAnimes/Blue-Lock-Episodi.png)"></div>
+          <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+          <div class="card__content">
+
+            <p class="card__category">LEGENDADO</p>
+            <h3 class="card__heading">Blue Lock 2º Episodio 01 HD Legendado</h3>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(assets/imgsAnimes/Boruto-Episodio-282.png)"></div>
+          <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+          <div class="card__content">
+            <p class="card__category">LEGENDADO</p>
+            <h3 class="card__heading" id="searchPesquisa">Boruto Episodio 282 HD Legendado</h3>
+          </div>
+        </li>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(assets/imgsAnimes/Buddy-Daddies-Episodio-1.png)"></div>
+          <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+          <div class="card__content">
+            <p class="card__category">LEGENDADO</p>
+            <h3 class="card__heading">Buddy-Daddies Episodio 1 HD Legendado</h3>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(assets/imgsAnimes/Dungeon-ni-Deai-wo-Motomeru-no-wa-Machigatteiru-Darou-ka-4-Temporada-Episodio-12.png)"></div>
+          <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+          <div class="card__content">
+            <p class="card__category">LEGENDADO</p>
+            <h3 class="card__heading">Dungeon ni Deai wo Motomeru no wa Machigatteiru 4º Episodio 01 HD</h3>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(assets/imgsAnimes/Fumetsu-no-Anata-e-2-Episodio-11.png)"></div>
+          <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+          <div class="card__content">
+            <p class="card__category">LEGENDADO</p>
+            <h3 class="card__heading">Fumetsu-no-Anata 2º Episodio 11 HD Legendado</h3>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(assets/imgsAnimes/Hyouken-no-Majutsushi-ga-Sekai-wo-Suberu-Episodio-1.png)"></div>
+          <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+          <div class="card__content">
+            <p class="card__category">LEGENDADO</p>
+            <h3 class="card__heading">Hyouken no Majutsushi ga Sekai wo Suberu Episodio 1 HD Legendado</h3>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(assets/imgsAnimes/Ijiranaide-Nagatoro-san-2-Episodio-1.png)"></div>
+          <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+          <div class="card__content">
+            <p class="card__category">LEGENDADO</p>
+            <h3 class="card__heading">Ijiranaide Nagatoro-san 2º Episodio 1 HD Legendado</h3>
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(assets/imgsAnimes/Kaiko-sareta-Ankoku-Heishi-30-dai-no-Slow-na-Second-Life-Episodio-1.png)"></div>
+          <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+          <div class="card__content">
+            <p class="card__category">LEGENDADO</p>
+            <h3 class="card__heading">Kaiko sareta Ankoku Heishi 30 dai no Slow na Second Life Episodio 1 HD Legendado</h3>
+          </div>
+          <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/Kami-tachi-ni-Hirowareta-Otoko-2-Episodio-1.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">Kami tachi ni Hirowareta Otoko 2º Episodio 1 HD Legendado.</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/NieR-Automata-Ver1-1a-Episodio.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">NieR Automata Ver1-1a Episodio 1 HD Legendado</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/Kyokou-Suiri-2-Episodio-1.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">Kyokou-Suiri-2-Episodio 1 HD Legendado</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/Nokemono-tachi-no-Yoru-Episodio-1.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">YNokemono-tachi no Yoru Episodio 1 HD Legendado</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/One-Piece-Episodio-1047.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">One Piece Episodio 1047 HD Legendado</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/Otonari-no-Tenshi-sama-ni-Itsunomanika-Dame-Ningen-ni-Sareteita-Ken-Episodio-1.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken Episodio 1 HD Legendado</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/Rougo-ni-Sonaete-Isekai-de-8-manmai-no-Kinka-wo-Tamemasu-Episodio-1.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">Rougo ni Sonaete Isekai de 8 manmai no Kinka wo Tamemasu-Episodio 1 HD Legendado</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/Saikyou-Onmyouji-no-Isekai-Tenseiki-Episodio-1.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">Saikyou Onmyouji no Isekai Tenseiki Episodio 1 HD Legendado</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/The-Legend-of-Heroes-Sen-no-Kiseki-Northern-War-Episodio-1-Anitube.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">The Legend of Heroes Sen no Kiseki Northern War-Episodio 1 HD Legendado</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/Tokyo-Revengers-Seiya-Kessen-hen-Episodio-1.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">Tokyo Revengers Seiya Kessen hen Episodio 1 HD Legendado</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/Trigun-Stampede-Episodio-1-Anitube.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">Trigun Stampede Episodio 1 HD Legendado</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/Vinland-Saga-2-Episodio-1-Anitube.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">Vinland-Saga 2º Episodio-1 HD Legendado</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/4-nin-wa-Sorezore-Uso-wo-Tsuku-Episodio-06.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">4 nin wa Sorezore Uso wo Tsuku Episodio 06 HD Legendado</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/Tsunlise-Tsundere-Akuyaku-Reijou-Liselotte-to-Jikkyou-no-Endou-kun-to-Kaisetsu-no-Kobayashi-san-Episodio-1.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">Tsunlise Tsundere Akuyaku Reijou Kaisetsu no Kobayashi san Episodio 1 HD Legendado</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/Urusei-Yatsura-2022-Episodio-12.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">Urusei Yatsura 2022 Episodio 12 HD Legendado</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/Hoshi-no-Samidare-Episodio-23-Anitube.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">Hoshi no Samidare Episodio 23 HD Legendado</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/Kyokou-Suiri-2-Episodio-1.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">Kyokou-Suiri 2º Episodio 1 HD Legendado </h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/High-Card-Episodio-1.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">High Card Episodio 1 HD Lengedado</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(assets/imgsAnimes/Mononogatari-Episodio-1-Anitube.png)"></div>
+              <div class="card__backgroundImg" style="background-image: url(assets/imgs/botao-play.png)"></div>
+              <div class="card__content">
+                <p class="card__category">LEGENDADO</p>
+                <h3 class="card__heading">Mononogatari Episodio 1 HD Legendado</h3>
+              </div>
+            </a>
+        </a>
+        <div class="divVejaMais">
+          <button id="viewMore" onclick="vejamais()">Ver Mais</button>
+        </div>
+    </section>
+    <!--Section sliderCarrousel Animes-->
+    <section id="home2">
+      <!--SliderContainer-->
+       <h2 id="titlesection2">Queridinhos da Semana</h2>
+      <div class="sliderContainer">
+        <!--Sessão das imagens-->
+        <div class="sliderSlider">
+          <div class="sliderImg img1">
+            <img src="assets/imgsAnimes/FolderBungoStrayDogsS4.webp" alt="1">
+          </div>
+          <div class="sliderImg img2">
+            <img src="assets/imgsAnimes/FolderKainaGreatOfTheSnow.webp" alt="2">
+          </div>
+          <div class="sliderImg img3">
+            <img src="assets/imgsAnimes/FolderTomo-chan isaGirl.webp" alt="3">
+          </div>
+          <div class="sliderImg img4">
+            <img src="assets/imgsAnimes/NierAutomataFolder.png" alt="4">
+          </div>
+          <div class="sliderImg img5">
+            <img src="assets/imgsAnimes/THeLegendOfHeroesFOlder.png" alt="5">
+          </div>
+          
+        </div>
+        <!--Button de controle-->
+        <div class="controllers">
+          <button class="btn prevBtn" id="btnprev"><i class="ph-caret-left"></i></button>
+          <button class="btn nextBtn" id="btnnext"><i class="ph-caret-right"></i></button>
+        </div>
+        <div class="navigator"></div>
+      </div>
+    </section>
+    <!--Fim da Section-->
+    <!--Rodapé footer-->
+    <footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3><span> <img src="./assets/imgs/logo.png" alt=""></span></h3>
+
+				<p class="footer-links">
+					<a href="#">Início</a>
+				  |
+					<a href="#">Sobre</a>
+					|
+					<a href="#">Noticias</a>
+					|
+					<a href="#">Contato</a>
+				</p>
+
+				<p class="footer-company-name">Thiago Lima &copy; 2023</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div class="textcontent">
+					<i class="fa fa-map-marker"></i>
+					 <span>AnimesForHD</span>
+          <p>é um site para assistir seus animes favoritos online e de onde quiser, temos uma lista completa com diversos animes recentes e antigos para você explorar e o melhor disso tudo é a 
+          qualidade do nosso site que o diferencia de outros. Contamos com player próprio para uma melhor qualidade em HD dos animes e um site com design fácil e bonito para vocês fãs de animes.</p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>Redes:</span>
+					
+				</p>
+         <!--Icons Links-->
+				<div class="footer-icons">
+
+					<a href="https://www.linkedin.com/in/thiago-lima-394b36232/" target="_blank"><i class="ph-linkedin-logo"></i></i></a>
+					<a href="#"><i class="ph-twitter-logo"></i></a>
+					<a href="#"><i class="ph-gitlab-logo-simple"></i></a>
+
+				</div>
+
+			</div>
+		</footer>
+  </body>
+  <script src="https://unpkg.com/phosphor-icons"></script>
+ 
+  <!--Banco de Dados-->
+  <script src="scripts/animeGamesBD.js" defer></script>
+  <script src="scripts/index.js" defer></script>
+</html>
